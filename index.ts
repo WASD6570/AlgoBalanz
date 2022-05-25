@@ -53,8 +53,8 @@ client.on("connect", async function (connection) {
 
 client.connect("wss://test-algobalanz.herokuapp.com/ws/holi");
 
-// setInterval(() => {
-//   console.log(ready);
-// }, 1000);
+setInterval(() => {
+  console.log(ready);
+}, 1000);
 
 export { client }; //for testing
